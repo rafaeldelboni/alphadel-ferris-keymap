@@ -7,11 +7,12 @@
 2) Clone the QMK repository
 ```bash
 git clone git@github.com:qmk/qmk_firmware.git
+cd qmk_firmware
 ```
 
 3) Clone this repository inside the following folder structure `keyboards/ferris/keymaps/alphadel/`
 ```bash
-git clone git@github.com:rafaeldelboni/alphadel-ferris-keymap.git qmk_firmware/keyboards/ferris/keymaps/alphadel
+git clone git@github.com:rafaeldelboni/alphadel-ferris-keymap.git keyboards/ferris/keymaps/alphadel
 ```
 
 ## Building Instructions
