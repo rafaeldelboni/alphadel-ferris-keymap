@@ -24,7 +24,7 @@ jobs:
 
     - uses: actions/checkout@v3
       with:
-        path: qmk_firmware/keyboards/crkbd/keymaps/alphadel
+        path: qmk_firmware/keyboards/ferris/keymaps/alphadel
 
     - name: QMK Setup
       run: qmk setup -y
@@ -36,5 +36,5 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: hex-firwmare
-        path: ./qmk_firmware/crkbd_rev1_alphadel.hex
+        path: ./qmk_firmware/ferris_0_1_alphadel.hex
         retention-days: 1
