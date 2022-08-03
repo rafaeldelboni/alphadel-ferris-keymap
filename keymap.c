@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     KC_TAB,  KC_VOLD, KC_VOLU, KC_MNXT, KC_MPLY,         KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_QUOT,
 
-    KC_TRNS, KC_TRNS, KC_CEDI, KC_BTN1, KC_BTN2,         KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, KC_TILD,
+    KC_TRNS, KC_TRNS, KC_CEDI, KC_BTN1, KC_BTN2,         KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, KC_TRNS,
 
                                KC_TRNS, KC_TRNS,         MO(3),   KC_TRNS
   ),
@@ -38,9 +38,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [2] = LAYOUT(
     KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC,         KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,
 
-    KC_TRNS,  KC_GRV, KC_TRNS, KC_TRNS, KC_PSCR,         KC_MINS, KC_EQL,  KC_LCBR, KC_RCBR, KC_PIPE,
+    KC_TRNS,  KC_GRV, KC_TILD, KC_TRNS, KC_PSCR,         KC_MINS, KC_EQL,  KC_LCBR, KC_RCBR, KC_PIPE,
 
-    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,         KC_UNDS, KC_PLUS, KC_LBRC, KC_RBRC, KC_DEL,
+    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_DEL,          KC_UNDS, KC_PLUS, KC_LBRC, KC_RBRC, KC_TRNS,
 
                                KC_TRNS, MO(3),           KC_TRNS, KC_TRNS
   ),
