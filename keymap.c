@@ -14,7 +14,9 @@ enum custom_keycodes {
 #define KC_AESC LALT_T(KC_ESC)
 
 #define KC_LSP1 LT(1, KC_SPC)
+#define KC_LSP3 LT(3, KC_SPC)
 #define KC_LEN2 LT(2, KC_ENT)
+#define KC_LEN3 LT(3, KC_ENT)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [0] = LAYOUT(
@@ -37,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------|                   |--------+--------+--------+--------+--------|
       KC_TRNS, KC_TRNS, KC_CEDL, KC_COLN, KC_TRNS,                     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_QUES,
   //|--------+--------+--------+--------+--------|--------| |--------+--------+--------+--------+--------+--------|
-                                          KC_TRNS, KC_TRNS,     MO(3), KC_TRNS
+                                          KC_TRNS, KC_TRNS,   KC_LEN3, KC_TRNS
                                       //`-----------------' `-----------------'
   ),
 
@@ -49,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------|                   |--------+--------+--------+--------+--------|
       KC_TRNS, KC_TRNS, KC_VOLD, KC_MPRV, KC_PSCR,                     KC_UNDS, KC_PLUS, KC_LBRC, KC_RBRC, KC_BSLS,
   //|--------+--------+--------+--------+--------|--------| |--------+--------+--------+--------+--------+--------|
-                                          KC_GUDL,   MO(3),   KC_TRNS, KC_TRNS
+                                          KC_GUDL, KC_LSP3,   KC_TRNS, KC_TRNS
                                       //`-----------------' `-----------------'
   ),
 
